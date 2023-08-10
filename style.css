@@ -1,0 +1,192 @@
+@import "reset.css";
+
+.mainContainer {
+  position: relative;
+}
+.navigationContainer {
+  position: relative;
+  display: flex;
+  width: 100vw;
+}
+
+.navigation {
+  position: fixed;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  z-index: 50;
+  color: white;
+  gap: 15px;
+}
+
+.navigation li:last-child {
+  margin-right: 100px;
+}
+
+.sectionContainer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.mainImageContainer {
+  width: 100vw;
+  position: relative;
+}
+
+.mainImageContainer img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.mainImageContainer h1 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgb(227, 227, 227);
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.aboutUsTitle {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.aboutUsTitle p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 4px;
+}
+
+.aboutContentsContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.aboutContentsContainer div img {
+  width: 250px;
+  object-fit: contain;
+}
+
+.contents1 {
+  display: flex;
+  align-items: center;
+}
+
+.contents1 span {
+  width: 300px;
+}
+
+.contents2 {
+  display: flex;
+  align-items: center;
+}
+
+.contents2 span {
+  width: 300px;
+}
+
+.projectImageContainer {
+  width: 100%;
+  height: auto;
+  align-items: start;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.projectTitle {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.projectTitle p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 4px;
+}
+
+.projectImage {
+  width: 30%;
+  max-width: 400px;
+}
+
+.contactContainer {
+  padding: 60px 0px;
+  background-color: rgb(213, 213, 213);
+}
+
+.contactContainer h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.excel{
+  font-size: 22px;
+}
+
+.contactContainer h2 p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 4px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer input {
+  width: 500px;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.formContainer input:first-child {
+  margin-top: 150px;
+}
+
+.formContainer button {
+  margin-top: 20px;
+  padding: 10px 50px;
+  font-size: 1rem;
+
+  border-radius: 5px;
+
+  border: none;
+}
+
+.downloadButtonContainer {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.downloadButtonContainer button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50
+}
+
+.downloadButtonContainer button a {
+  color: black;
+  padding: 10px 50px;
+  
+}

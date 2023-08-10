@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="mainContainer">
+      <nav class="navigationContainer">
+        <ul class="navigation">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#aboutus">ABOUT ME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <section class="" id="home">
+        <div class="mainImageContainer">
+          <img src="/image/mainPage.png" />
+          <h1>Hello! I am Jeong. Passionate Frontend and Python developer</h1>
+        </div>
+      </section>
+
+      <section class="sectionContainer" id="aboutus">
+        <h2 class="aboutUsTitle">
+          WHAT I DO?
+          <p>THE THINGS I AM GOOD AT</p>
+        </h2>
+        <div class="aboutContentsContainer">
+          <div class="contents1">
+            <img src="/image/logo.jpg" />
+            <span class = "excel">
+              HTML, CSS, JS are my frontend skills that I excel in . I have experience in developing multiple web scraping tools and automating using selenium. 
+            </span>
+          </div>
+
+          <div class="contents2">
+            <img src="/image/python.png" />
+            <span class = "excel"
+              >I have developed multiple simple games, weather checking gui programs with api, and more!</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="sectionContainer" id="projects">
+        <h2 class="projectTitle">
+          My Sample PROJECTS
+
+          <p>SAMPLE PROJECTS WHAT I MADE</p>
+          <br>
+          <p>Multiple Python games along with automating linkedin apply program, instagram follower bot, and tinder swipe bot </p>
+          <br>
+        </h2>
+
+        <div class="projectImageContainer">
+          <img src="/image/project1.png" class="projectImage" />
+          <img src="/image/project2.png" class="projectImage" />
+          <img src="/image/project3.png" class="projectImage" />
+        </div>
+        <div class="projectImageContainer">
+          <img src="/image/insta.jpg" alt="">
+          <img src="/image/linkedin.png" alt="">
+          <img src="/image/tinder.jpg" alt="">
+
+        </div>
+        <div class="downloadButtonContainer">
+          <button>
+            <a
+              href="https://drive.google.com/drive/folders/1mmgbZ8VrDmmwCX_KuAZQqI6dtihBinOR?usp=sharing"
+            >
+              Download codes!
+            </a>
+          </button>
+        </div>
+      </section>
+
+      <section class="sectionContainer" id="contact">
+        <div class="contactContainer">
+          <h2>
+            CONTACT ME
+            <p>HAVE A QUSETION?</p>
+          </h2>
+
+          <form class="formContainer">
+            <input placeholder="name" type="text" id="name" />
+
+            <input placeholder="address" type="text" id="address" />
+
+            <input placeholder="phone number" type="number" id="phoneNumber" />
+
+            <input placeholder="message" type="text" id="message" />
+
+            <button type="submit" id="submitBtn">send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script src="/script.js"></script>
+</html>
